@@ -1,0 +1,53 @@
+/* Write your CSS here */
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding: 4px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-img {
+  width: 30px;
+  height: 30px;
+}
+
+.popup-content {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.nav-link {
+  text-decoration: none;
+  border: none;
+}
+
+.link-item {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px;
+}
